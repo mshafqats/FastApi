@@ -1,0 +1,80 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+*.env
+
+# -----------------------------
+# Django stuff
+# -----------------------------
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & static (if generated)
+media/
+staticfiles/
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# Secrets
+# -----------------------------
+secrets.json
+*.pem
+*.key
